@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Spartan:wght@400;500;600&family=Poppins&display=swap');
+.navbar {
+    background-color: #3498db; /* Change the background color to your preference */
+    color: white;
+    font-family: "Spartan", sans-serif;
+   
+}
+#heading{
+    color: rgb(0, 150, 255);
+}
+.navbar-brand {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px; /* Adjust the margin between navbar items */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 163, 108) !important; /* Set link text color to white */
+}
+
+/* Apply hover effect to navbar links */
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important; /* Change link text color on hover */
+}
+
+/* Add padding to the main content */
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #258cd1;
+}
+

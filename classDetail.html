@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <h1>Class Details </h1>
+    
+    <!-- Form to Add/Edit Class Details -->
+    <div class="form-container">
+        <h2>Add/Edit Class Details</h2>
+        <form id="class-form">
+            <label for="class-timings">Class Timings:</label>
+            <select id="class-timings">
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="Weekend">Weekend</option>
+                <option value="Online">Online</option>
+            </select>
+
+            <label for="class-schedule">Schedule of Classes:</label>
+            <select id="class-schedule">
+                <option value="9am-12am">9am-12am</option>
+                <option value="2pm-4pm">2pm-4pm</option>
+                <option value="6pm-8pm">6pm-8pm</option>
+                <option value="9pm-11pm">9pm-11pm</option>
+                <option value="Flexible">Flexible</option>
+            </select>
+
+            <label for="teacher-name">Teacher's Name:</label>
+            <select id="teacher-name">
+                <option value="Miss Hina">Miss Hina</option>
+                <option value="Miss Faiza">Miss Faiza</option>
+                <option value="Sir Ghous">Sir Ghous</option>
+                <option value="Sir Saad">Sir Saad</option>
+                <option value="Miss Iqra">Miss Iqra</option>
+            </select>
+            
+
+            <label for="section-name">Section Name:</label>
+            <input type="text" id="section-name" required>
+
+            <label for="course-name">Course Name:</label>
+            <input type="text" id="course-name" required>
+
+            <label for="batch-number">Batch Number:</label>
+            <input type="text" id="batch-number" required>
+
+            <button type="button" onclick="addClassDetails()">Add Class</button>
+            <button type="button" onclick="updateClassDetails()">Update Class</button>
+            <button type="button" onclick="deleteClassDetails()">Delete Class</button>
+        </form>
+    </div>
+
+    <!-- Display Class Details (Read Operation) -->
+    <div class="class-details-container">
+        <h2>Class Details</h2>
+        <ul id="class-details-list"></ul>
+    </div>
+<script src="class.js"></script>
+</body>
+</html>
